@@ -1,0 +1,110 @@
+body {
+  background-color: #303033;
+  font-family: Montserrat;
+  scroll-behavior: smooth;
+  padding: 0px;
+  margin: 0px;
+}
+.main_wapper {
+  background: #303033;
+  min-height: 633px !important;
+  margin: 13px;
+  border-radius: 3px;
+  padding: 20px;
+}
+.inner_screen_herader_style {
+  margin: 9px 9px;
+  background: #303033;
+  padding: 11px 23px;
+  border-radius: 32px;
+}
+.inner_screen_herader_style h4 {
+  padding: 8px;
+  margin: 0px;
+  font-size: 17px;
+  display: inline;
+}
+
+.rs-nav .rs-dropdown .rs-dropdown-menu-active ~ .rs-dropdown-toggle,
+.rs-nav .rs-dropdown .rs-dropdown-menu-active ~ .rs-dropdown-toggle:active,
+.rs-nav .rs-dropdown .rs-dropdown-menu-active ~ .rs-dropdown-toggle:focus,
+.rs-nav .rs-dropdown .rs-dropdown-menu-active ~ .rs-dropdown-toggle:hover,
+.rs-nav .rs-nav-item-active > .rs-nav-item-content,
+.rs-nav .rs-nav-item-active > .rs-nav-item-content:active,
+.rs-nav .rs-nav-item-active > .rs-nav-item-content:focus,
+.rs-nav .rs-nav-item-active > .rs-nav-item-content:hover {
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+}
+.nav-item-content .rs-nav-item-content {
+  font-size: 14px !important;
+}
+.rs-nav-item-active {
+  color: #fff !important;
+  font-size: 19px;
+  font-weight: bold;
+}
+.rs-sidenav-default {
+  background-color: #303033 !important;
+}
+.Toastify__toast-body {
+  margin: 12px 14px;
+  -ms-flex: 1;
+  flex: 1;
+}
+.Toastify__toast--info {
+  background: #303033;
+}
+a {
+  color: #fefeff !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+a:hover {
+  color: #979faf !important;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.Toastify__toast-container {
+  width: 390px;
+}
+.main-login-wrap {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.login-content img {
+  max-width: 300px;
+}
+
+.btn {
+  background-color: #303033;
+  border: 1px solid #303033;
+  padding: 10px 55px;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 70px !important;
+  display: block;
+  margin: 0 auto;
+  margin-top: 0px;
+}
+
+.login-content p {
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 60px 0px;
+  margin: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  color: #525252;
+}

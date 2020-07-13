@@ -1,0 +1,42 @@
+.login-content {
+  position: absolute;
+  top: 50%;
+  background-color: #f7f7f7;
+  padding: 50px 60px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+}
+
+.input_container {
+  margin: 0px 26px;
+}
+
+.otp_inputstyle {
+  width: 2em !important;
+  text-align: center !important;
+  padding: 0px 0px;
+  margin: 0px 15px;
+  color: black;
+  background: #f7f7f7;
+}
+
+.PhoneInput {
+  display: flex;
+  align-items: center;
+  margin: 0px 32px;
+}
+.PhoneInputInput {
+  flex: 1;
+  min-width: 0;
+  background: #f7f7f7;
+}
+
+input {
+  border: 0px;
+  border-bottom: 2px solid #303033;
+  max-width: 195px;
+  margin-right: 10px;
+}

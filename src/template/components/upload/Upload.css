@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+  /* background-color: rgb(206, 213, 223); */
+  margin: 0px 0px;
+  padding: 0px 14px;
+  min-height: 50vh;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+.Row {
+  padding: 5px;
+}
+.ProgressWrapper {
+  padding: 0px 37px;
+}
+.Card {
+  background-color: #5a5a5a;
+  color: white !important;
+  padding: 32px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  border-radius: 16px;
+}
+.Upload {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  text-align: left;
+  overflow: hidden;
+}
+.CheckIcon {
+  font-size: 41px !important;
+  background: #5a5a5a;
+  padding: 11px 14px;
+  border: 2px solid #04f738;
+  border-radius: 47px;
+  color: #04f738;
+}
+.Content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.Filename {
+  font-size: 17px;
+  background: #303033;
+  padding: 6px 14px;
+  border-radius: 25px;
+  border: 1px solid #1d1c1c;
+}
+.Files {
+  margin-left: 32px;
+  align-items: flex-start;
+  justify-items: flex-start;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.Actions {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.Actions button {
+  background: #ec3237;
+  padding: 4px 15px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.Title {
+  display: block;
+  margin-bottom: 0px;
+  color: #ffffff;
+  min-width: 100%;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #251f1f;
+  padding-left: 20px;
+}
